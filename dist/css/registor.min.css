@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+.header {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .header .logo {
+    float: left; }
+  .header .right {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    font-size: 14px;
+    color: #666666; }
+    .header .right .span {
+      margin-left: 60px; }
+      .header .right .span i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../img/sprite.png) -76px -60px no-repeat;
+        vertical-align: middle;
+        margin-right: 5px; }
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 560px;
+  overflow: hidden; }
+  .background img {
+    position: absolute;
+    left: 50%;
+    margin-left: -1000px; }
+
+.register {
+  width: 1200px;
+  height: 560px;
+  margin: 0 auto; }
+  .register .reg .reg_form {
+    float: right;
+    position: relative;
+    width: 340px;
+    height: 520px;
+    margin-top: 20px;
+    padding: 0 30px;
+    background: #fff; }
+    .register .reg .reg_form .text {
+      margin: 30px 0; }
+      .register .reg .reg_form .text span {
+        font-size: 22px;
+        font-weight: bold;
+        color: #333; }
+      .register .reg .reg_form .text a {
+        float: right;
+        color: #d70057; }
+  .register .reg .same {
+    position: relative;
+    width: 337px;
+    height: 50px; }
+    .register .reg .same input {
+      width: 325px;
+      height: 46px;
+      line-height: 46px;
+      font-size: 14px;
+      margin-bottom: 13px;
+      padding-left: 10px; }
+  .register .reg .phone_err {
+    visibility: hidden;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+    font-size: 12px; }
+    .register .reg .phone_err .err {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      vertical-align: middle;
+      margin: -4px 3px 0 0;
+      background: url(../img/sprite.png) -76px 0 no-repeat; }
+  .register .reg .graph {
+    width: 340px;
+    height: 50px; }
+    .register .reg .graph .left {
+      height: 50px;
+      position: relative;
+      float: left; }
+      .register .reg .graph .left input {
+        width: 160px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 14px;
+        margin-bottom: 13px;
+        padding-left: 10px; }
+    .register .reg .graph #v_container {
+      float: right;
+      width: 130px;
+      height: 50px; }
+  .register .reg .login_btn {
+    width: 338px;
+    height: 50px;
+    background: #d70057;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; }
+  .register .reg .deal {
+    font-size: 12px;
+    color: #999; }
+    .register .reg .deal a {
+      color: #d70057; }
+
+.footer {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  margin: 18px auto 0;
+  text-align: center;
+  color: #999;
+  font-size: 12px; }

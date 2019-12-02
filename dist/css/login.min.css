@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+.header {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .header .logo {
+    float: left; }
+  .header .right {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    font-size: 14px;
+    color: #666666; }
+    .header .right .span {
+      margin-left: 60px; }
+      .header .right .span i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../img/sprite.png) -76px -60px no-repeat;
+        vertical-align: middle;
+        margin-right: 5px; }
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 560px;
+  overflow: hidden; }
+  .background img {
+    position: absolute;
+    left: 50%;
+    margin-left: -1000px; }
+
+.login {
+  width: 1200px;
+  height: 560px;
+  margin: 0 auto; }
+  .login .login_img {
+    width: 100%;
+    color: #676767;
+    font-size: 14px;
+    float: left;
+    background-position: 55px 20px; }
+    .login .login_img .login_border {
+      float: right;
+      width: 340px;
+      height: 520px;
+      margin-top: 20px;
+      padding: 0 30px;
+      position: relative;
+      background: #fff; }
+      .login .login_img .login_border .table {
+        width: 340px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bolder;
+        color: #333; }
+        .login .login_img .login_border .table .font {
+          display: inline-block;
+          width: 166px;
+          height: 24px;
+          line-height: 24px;
+          text-align: center;
+          cursor: pointer; }
+        .login .login_img .login_border .table .font_right {
+          border-left: 1px solid #676767; }
+      .login .login_img .login_border .number {
+        display: none; }
+        .login .login_img .login_border .number p {
+          visibility: hidden;
+          height: 30px;
+          line-height: 30px;
+          font-size: 12px;
+          color: red; }
+          .login .login_img .login_border .number p i {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            margin: -4px 4px 0 0;
+            vertical-align: middle;
+            background: url(../img/sprite.png) -76px 0 no-repeat; }
+        .login .login_img .login_border .number .userlogin .txt {
+          border: 1px solid #e0e0e0; }
+          .login .login_img .login_border .number .userlogin .txt .valid {
+            height: 46px;
+            width: 327px;
+            font-size: 14px;
+            line-height: 46px;
+            padding-left: 10px;
+            border: none; }
+        .login .login_img .login_border .number .userlogin .login_btn {
+          width: 338px;
+          height: 50px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+          background: #d70057;
+          border: none;
+          cursor: pointer;
+          margin-bottom: 15px; }
+        .login .login_img .login_border .number .userlogin .forget {
+          float: right; }
+          .login .login_img .login_border .number .userlogin .forget a {
+            font-size: 13px;
+            color: #999; }
+      .login .login_img .login_border .scan_code {
+        display: block; }
+        .login .login_img .login_border .scan_code .code {
+          height: 200px;
+          margin: 28px auto;
+          text-align: center; }
+          .login .login_img .login_border .scan_code .code .remove {
+            position: relative;
+            width: 340px;
+            height: 200px; }
+            .login .login_img .login_border .scan_code .code .remove .first {
+              position: absolute;
+              left: 80px;
+              top: 0;
+              width: 180px;
+              height: 180px;
+              vertical-align: top; }
+            .login .login_img .login_border .scan_code .code .remove .second {
+              display: none;
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 155px; }
+        .login .login_img .login_border .scan_code .scan_text {
+          font-size: 14px;
+          color: #666;
+          text-align: center; }
+        .login .login_img .login_border .scan_code .download {
+          position: relative;
+          font-size: 14px;
+          text-align: center; }
+          .login .login_img .login_border .scan_code .download .down {
+            width: 200px;
+            margin: 10px auto;
+            text-align: center;
+            cursor: pointer; }
+            .login .login_img .login_border .scan_code .download .down i {
+              display: inline-block;
+              width: 18px;
+              height: 18px;
+              margin-right: 5px;
+              vertical-align: middle;
+              background: url(../img/sprite.png) -53px -58px no-repeat; }
+          .login .login_img .login_border .scan_code .download .down_code {
+            display: none;
+            position: absolute;
+            left: 90px;
+            top: 30px;
+            width: 158px;
+            height: 140px;
+            padding-top: 15px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #999;
+            z-index: 1; }
+            .login .login_img .login_border .scan_code .download .down_code img {
+              height: 126px;
+              width: 126px; }
+      .login .login_img .login_border .login_middle {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 360px;
+        padding: 16px 30px 16px 10px;
+        background: #f6f6f6; }
+        .login .login_img .login_border .login_middle .left {
+          float: left; }
+          .login .login_img .login_border .login_middle .left a {
+            display: inline-block;
+            padding: 0 10px;
+            border-right: 1px solid #e0e0e0; }
+            .login .login_img .login_border .login_middle .left a i {
+              display: inline-block;
+              width: 18px;
+              height: 18px;
+              vertical-align: middle; }
+            .login .login_img .login_border .login_middle .left a .icon_qq {
+              background: url(../img/sprite.png) -23px -58px no-repeat; }
+            .login .login_img .login_border .login_middle .left a .icon_wx {
+              background: url(../img/sprite.png) -5px -42px no-repeat; }
+            .login .login_img .login_border .login_middle .left a .icon_zfb {
+              background: url(../img/sprite.png) -5px -76px no-repeat; }
+            .login .login_img .login_border .login_middle .left a .icon_wb {
+              background: url(../img/sprite.png) -53px -30px no-repeat; }
+            .login .login_img .login_border .login_middle .left a .icon_kxw {
+              background: url(../img/sprite.png) -23px -30px no-repeat; }
+        .login .login_img .login_border .login_middle .right {
+          float: right; }
+          .login .login_img .login_border .login_middle .right a {
+            font-size: 12px;
+            color: #666; }
+            .login .login_img .login_border .login_middle .right a i {
+              display: inline-block;
+              width: 16px;
+              height: 17px;
+              vertical-align: middle;
+              margin: -3px 5px 0 0;
+              background: url(../img/sprite.png) -76px -30px no-repeat; }
+
+.footer {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  margin: 18px auto 0;
+  text-align: center;
+  color: #999;
+  font-size: 12px; }
